@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 
 # Create your models here.
-import uuid
+#import uuid
 from django.contrib.auth.models import User
 from django.contrib.gis.db import models
 
@@ -18,6 +18,7 @@ class UserProfile(models.Model):
 
 
 class Game(models.Model):
+    id=models.UUIDField(primary_key=True,null=False)
     host=models.ForeignKey(User,null=True,blank=True)
     type=models.IntegerField()
     latitude=models.CharField(max_length=40)
