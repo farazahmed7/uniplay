@@ -24,4 +24,4 @@ class Game(models.Model):
     latitude=models.CharField(max_length=40)
     longitude=models.CharField(max_length=40)
     location = models.PointField(max_length=40, null=True)
-    #participants = models.ManyToManyField(User, related_name='participants')
+    participants = models.ManyToManyField(User, related_name='participants')
