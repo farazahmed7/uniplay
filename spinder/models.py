@@ -19,9 +19,8 @@ class UserProfile(models.Model):
 
 class Game(models.Model):
     host=models.ForeignKey(User,null=True,blank=True)
-    id=models.IntegerField(primary_key=True)
     type=models.IntegerField()
     latitude=models.CharField(max_length=40)
     longitude=models.CharField(max_length=40)
     location = models.PointField(max_length=40, null=True)
-    participants = models.ManyToManyField(User, related_name='participants')
+    #participants = models.ManyToManyField(User, related_name='participants')
