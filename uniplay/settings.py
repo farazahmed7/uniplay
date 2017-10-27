@@ -89,8 +89,8 @@ DATABASES = {
         "NAME": "uniplay",
         "USER": "super",
         'PASSWORD': 'uniplayuniplay',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': 'playpact-566.postgres.pythonanywhere-services.com',
+        'PORT': '10566',
     }
 }
 
