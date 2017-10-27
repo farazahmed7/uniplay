@@ -18,6 +18,7 @@ class UserProfile(models.Model):
 
 
 class Game(models.Model):
+	id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     host=models.ForeignKey(User)
     type=models.IntegerField()
     latitude=models.CharField(max_length=40)
