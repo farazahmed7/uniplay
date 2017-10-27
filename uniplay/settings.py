@@ -134,3 +134,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 SITE_ID=1
 POSTGIS_VERSION = (2, 1, 4)
+ALLOWED_HOSTS="playpact.pythonanywhere.com"
