@@ -25,7 +25,7 @@ SECRET_KEY = '@9eyd*%j@r&$d8th28&-(3(6dtd08a3kk(^%_v&_720-cl#3r@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['playpact.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -47,27 +47,6 @@ INSTALLED_APPS = [
 'allauth.socialaccount.providers.facebook',
     'rest_framework.authtoken',
 ]
-
-SITE_ID = 1
-
-
-AUTHENTICATION_BACKENDS = (
-    # Needed to login by username in Django admin, regardless of `allauth`
-    "django.contrib.auth.backends.ModelBackend",
-    # `allauth` specific authentication methods, such as login by e-mail
-    "allauth.account.auth_backends.AuthenticationBackend"
-)
-
-TEMPLATE_CONTEXT_PROCESSORS = (
-    "django.core.context_processors.request",
-    "django.contrib.auth.context_processors.auth",
-    "allauth.account.context_processors.account",
-    "allauth.socialaccount.context_processors.socialaccount",
-)
-
-# auth and allauth settings
-LOGIN_REDIRECT_URL = '/'
-SOCIALACCOUNT_QUERY_EMAIL = True
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -116,7 +95,6 @@ DATABASES = {
 }
 
 
-
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
 
@@ -154,4 +132,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+SITE_ID=1
 POSTGIS_VERSION = (2, 1, 4)
+ALLOWED_HOSTS=["playpact.pythonanywhere.com",]
