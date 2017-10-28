@@ -7,7 +7,7 @@ __author__ = 'abc'
 
 urlpatterns = [
     url(r'^create/$', views.create_game, name='join_game'),
-        url(r'^login/$', views.mobile_facebook_login, name='join_game'),
+    url(r'^login/$', views.mobile_facebook_login, name='mobile_facebook_login'),
         url(r'^create/$', views.create_game, name='join_game'),
         url(r'^token/$', views.get_token, name='get_token'),
 

@@ -25,7 +25,7 @@ SECRET_KEY = '@9eyd*%j@r&$d8th28&-(3(6dtd08a3kk(^%_v&_720-cl#3r@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['playpact.pythonanywhere.com']
 
 
 # Application definition
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
 ]
 
+SITE_ID = 1
 
 
 AUTHENTICATION_BACKENDS = (
@@ -152,6 +153,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-SITE_ID=1
 POSTGIS_VERSION = (2, 1, 4)
-ALLOWED_HOSTS=["playpact.pythonanywhere.com",]

@@ -28,8 +28,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6481481">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.0524691">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/spinder/url.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/spinder/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="57" />
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -94,16 +94,16 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response165.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response173.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uniplay/urls.py" />
-        <option value="$PROJECT_DIR$/spinder/url.py" />
         <option value="$PROJECT_DIR$/spinder/admin.py" />
         <option value="$PROJECT_DIR$/spinder/models.py" />
         <option value="$PROJECT_DIR$/spinder/views.py" />
+        <option value="$PROJECT_DIR$/spinder/url.py" />
         <option value="$PROJECT_DIR$/uniplay/settings.py" />
       </list>
     </option>
@@ -204,6 +204,123 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510406437000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510406435000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510405515000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2355,7 +2472,7 @@
     <entry file="file://$PROJECT_DIR$/spinder/url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -2365,7 +2482,7 @@
     <entry file="file://$PROJECT_DIR$/spinder/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="57" />
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
@@ -2374,8 +2491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6481481">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.0524691">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
