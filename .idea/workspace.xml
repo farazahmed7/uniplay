@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/spinder/url.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spinder/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+            <state vertical-scroll-proportion="-0.88352275">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -79,27 +79,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spinder/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7633851">
+            <state vertical-scroll-proportion="-15.24138">
               <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1509145957214" expanded="true" signature="479:879" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response81.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uniplay/urls.py" />
-        <option value="$PROJECT_DIR$/spinder/views.py" />
         <option value="$PROJECT_DIR$/spinder/url.py" />
-        <option value="$PROJECT_DIR$/uniplay/settings.py" />
         <option value="$PROJECT_DIR$/spinder/admin.py" />
         <option value="$PROJECT_DIR$/spinder/models.py" />
+        <option value="$PROJECT_DIR$/uniplay/settings.py" />
+        <option value="$PROJECT_DIR$/spinder/views.py" />
       </list>
     </option>
   </component>
@@ -195,6 +200,887 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510401118000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510400998000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510399608000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510399605000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510399098000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510399097000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAFfgtlnqjKWZCyr4r4iHG42LUcDTKvnOPXDybmYnPrZCVlONbdObq01riQIZBAItkCnRK9sfPPQKPIEZCBdljrLBSUjUQuSVVAFYj9EY4ZADXz8neyMGV7YncQWePQ1Bv8OZAGzg42V3CgZAEpZCCW2B7qDIbTq2wW2eJs1st9vIdfXGjzYseLwZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510399095000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAFfgtlnqjKWZCyr4r4iHG42LUcDTKvnOPXDybmYnPrZCVlONbdObq01riQIZBAItkCnRK9sfPPQKPIEZCBdljrLBSUjUQuSVVAFYj9EY4ZADXz8neyMGV7YncQWePQ1Bv8OZAGzg42V3CgZAEpZCCW2B7qDIbTq2wW2eJs1st9vIdfXGjzYseLwZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398872000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABAFfgtlnqjKWZCyr4r4iHG42LUcDTKvnOPXDybmYnPrZCVlONbdObq01riQIZBAItkCnRK9sfPPQKPIEZCBdljrLBSUjUQuSVVAFYj9EY4ZADXz8neyMGV7YncQWePQ1Bv8OZAGzg42V3CgZAEpZCCW2B7qDIbTq2wW2eJs1st9vIdfXGjzYseLwZD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398870000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398811000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398809000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398808000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398806000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398737000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398535000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398533000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398464000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510398063000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510397931000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510397929000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510397925000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Django server.uniplay">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -453,27 +1339,27 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4025157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@uniplay" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4025157" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -574,7 +1460,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509145957214" expanded="true" signature="479:879" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +1506,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1509145957214" expanded="true" signature="479:879" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,6 +1546,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spinder/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spinder/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <marker date="1509145957214" expanded="true" signature="479:879" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uniplay/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -667,7 +1583,7 @@
     <entry file="file://$PROJECT_DIR$/spinder/url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -676,35 +1592,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spinder/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+        <state vertical-scroll-proportion="-0.88352275">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinder/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinder/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7633851">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>

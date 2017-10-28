@@ -62,21 +62,17 @@ def mobile_facebook_login(request):
             try:
                 account=a.account
                 user=account.user
-                user.backend = 'django.contrib.auth.backends.ModelBackend'
-                 #tuple=UserProfile.objects.get_or_create(user=user,dp=account.get_avatar_url(),fullName=user.get_full_name())
                 tuple=UserProfile.objects.get_or_create(user=user,dp=account.get_avatar_url(),fullName=user.get_full_name())
-                UserProfile.objects.update(user=user,isNew=tuple[1])
 
                 if tuple[1]==True:
-                    Token.objects.create(user=user)
-                return HttpResponse('{\"user\":' + serializers.serialize("json", [tuple[0]]) + '}',
-                                    content_type='application/json')
+                     Token.objects.create(user=user)
+                return HttpResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
         except Exception as e:
             # If we get here we've failed
-           return HttpResponse("ASdsa "+str(e))
+           return HttpResponse(" "+str(e))
 
 @csrf_exempt
 @api_view(['POST','GET'])
