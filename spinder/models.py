@@ -9,6 +9,7 @@ from django.contrib.gis.db import models
 
 
 class UserProfile(models.Model):
+    id=models.UUIDField(primary_key=True,null=False,default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User)
     fullName=models.CharField(max_length=300)
     dp=models.CharField(max_length=300)
