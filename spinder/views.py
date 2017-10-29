@@ -3,16 +3,19 @@ from allauth.socialaccount.models import SocialApp, SocialToken, SocialLogin
 from allauth.socialaccount.providers.facebook.views import fb_complete_login
 from django.contrib.auth.models import User
 from django.contrib.gis.geos import Point
+from django.core import serializers
 from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework import serializers
 from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from spinder.models import Game, UserProfile
 
+
+def chalja():
+    x=0
 
 @csrf_exempt
 def get_token(request):
@@ -72,7 +75,7 @@ def mobile_facebook_login(request):
             return HttpResponse("wuhoo")
         except Exception as e:
             # If we get here we've failed
-           return HttpResponse(" "+str(e))
+           return HttpResponse(a.__str__() +str(e)+"")
 
 @csrf_exempt
 @api_view(['POST','GET'])
