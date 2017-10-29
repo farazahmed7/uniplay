@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'uniplay.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.contrib.gis.db.backends.postgis",
-        "NAME": "friend",
-        "USER": "postgres",
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        "NAME": "uniplay",
+        "USER": "super",
+        'PASSWORD': 'uniplayuniplay',
+        'HOST': 'playpact-566.postgres.pythonanywhere-services.com',
+        'PORT': '10566',
     }
 }
 
