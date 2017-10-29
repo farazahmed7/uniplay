@@ -45,8 +45,9 @@ def get_token(request):
             # If we get here we've failed
            return HttpResponse("ASdsa "+str(e))
 
-@api_view(['POST'])
+
 @csrf_exempt
+@api_view(['POST','GET'])
 def mobile_facebook_login(request):
     if request.method=="POST":
         response=HttpResponse
