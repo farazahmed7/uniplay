@@ -92,6 +92,6 @@ def create_game(request):
         distance = p1.distance(p2)
         distance_in_km = distance * 100
         #game=Game.objects.create(host=user,location=location,type=type)
-        return HttpResponse("done"+str(distance_in_km))
+        return HttpResponse("done")
 
 
