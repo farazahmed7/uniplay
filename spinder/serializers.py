@@ -4,6 +4,7 @@ from spinder.models import UserProfile
 
 
 class UserSerializer(serializers.ModelSerializer):
+    isNew=serializers.BooleanField(default=True)
     class Meta:
         model=UserProfile
-        fields=('isNew',)
+

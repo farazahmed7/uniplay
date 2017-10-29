@@ -11,6 +11,7 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from spinder.models import Game, UserProfile
 from spinder.serializers import UserSerializer
 
@@ -70,8 +71,9 @@ def mobile_facebook_login(request):
                      UserProfile.objects.update(user=user,isNew=False)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
-                ser=UserSerializer(tuple[0])
-                return HttpResponse(serializers.serialize("json",[tuple[0]]))
+                serializer_context = {'request': request}
+                ser=UserSerializer(tuple[0],context=serializer_context)
+                return Response(ser.data)
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
@@ -87,13 +89,8 @@ def create_game(request):
         lon=str(request.POST['longitude'])
         lat=str(request.POST['latitude'])
         type=str(request.POST['type'])
-        p1 = Point(37.2676483,-6.9273579)
-        p2 = Point(37.2653293,-6.9249401)
-        distance = p1.distance(p2)
-        distance_in_km = distance * 100
-        x=str(distance_in_km)
-
-        #game=Game.objects.create(host=user,location=location,type=type)
-        return HttpResponse("done"+x)
+        location = Point((float(lon), float(lat)))
+        game=Game.objects.create(host=user,location=location,type=type)
+        return HttpResponse("done"+location)
 
 
