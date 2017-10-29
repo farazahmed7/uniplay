@@ -7,4 +7,5 @@ class UserSerializer(serializers.ModelSerializer):
     isNew=serializers.BooleanField(default=True)
     class Meta:
         model=UserProfile
+        fields = '__all__'
 
