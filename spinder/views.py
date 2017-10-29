@@ -86,8 +86,9 @@ def create_game(request):
         user=request.user
         lon=str(request.POST['longitude'])
         lat=str(request.POST['latitude'])
+        type=str(request.POST['type'])
         location = Point((float(lon), float(lat)))
-        game=Game.objects.create(host=user,location=location)
+        game=Game.objects.create(host=user,location=location,type=type)
         return HttpResponse("done")
 
 
