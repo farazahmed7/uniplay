@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spinder/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.551724">
-              <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.9102167">
+              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spinder/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51704544">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
@@ -102,7 +102,7 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response25.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response31.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -212,6 +212,80 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1510472353000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="et30fr4b0x7oxusio2rr8wiw8w0hnbt1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1510376911000" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sessionid" />
+                <option name="path" value="/" />
+                <option name="value" value="z55n8ez9iy7pcs7771iyfzqyc0ma2aef" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1540616911000" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="csrftoken" />
+                <option name="path" value="/" />
+                <option name="value" value="9bfvLS5T2NkcOQMXT70PLVKKBEvrKkfQ" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="messages" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c24c6513db9889cca069151609f96dc5adc234c9$[[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]]&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1540712353000" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="csrftoken" />
+                <option name="path" value="/" />
+                <option name="value" value="PCmBNhD6aePG8yzPHoen5Pb9Yym6wqE1WwvwW1S72kiDZbNHY0CMYMMQjWu4Yv0N" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="playpact.pythonanywhere.com" />
+                <option name="name" value="messages" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;70afac8cced145a5b1014597e986af38fc36ee8c$[[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]\054[\&quot;__json_message\&quot;\0540\05425\054\&quot;Successfully signed in as mohammad.\&quot;]]&quot;" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
+          <option name="urlPath" value="/login/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="access_token" />
+                <option name="value" value="EAAO6CpshNKABABhfZBbq7ZAeAIOakkWxPFtk0D5aopCgbwXpngdqzIean3sNpfZCENIrRQ44oOTjLXMOSKpnR8twaURfzKPDLC5iaiU7RRSPEoj2AcRhjrfhFpj2BCoZBQdYYun3aDlNcVp2MZBrKbcUBMecH6KiPl9EmlLPgTSverhz8iFnhuuuEZC0iAxqDMMUEwCYzZB7L6VkqpTKt9m1rBQVHnMdb2fJSfZBOoThEgrY9IJZADrXf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2841,45 +2915,6 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="1510401273000" />
-                <option name="domain" value="playpact.pythonanywhere.com" />
-                <option name="name" value="sessionid" />
-                <option name="path" value="/" />
-                <option name="value" value="wyo8sbgwiw4jy1betbup0rahsls4wdfh" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://playpact.pythonanywhere.com" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="access_token" />
-                <option name="value" value="EAAO6CpshNKABAAzIEVDr3WNvmcZC23pY5oejTNr6E6o1wmleCiHihTpR3UYBZBADUZBp8AZB2S2OMVZAzUpQp7JFfHefRwMxk4Bds9Ffzx7rUZCnyZAelid6529H2PQt1DFYZC9YuXQF1QIoWXyq6jnnO3XmrenUDa2txUdOAKC1ThqFJBZBRpxnm6GyRiHSLyDsrd6Nbi4qXcwZDZD" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -3437,16 +3472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spinder/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.551724">
-          <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uniplay/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3457,9 +3482,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spinder/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51704544">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spinder/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9102167">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

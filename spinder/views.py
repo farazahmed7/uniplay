@@ -74,7 +74,7 @@ def mobile_facebook_login(request):
             return HttpResponse("wuhoo")
         except Exception as e:
             # If we get here we've failed
-           return HttpResponse(a.__str__() +str(e)+"")
+           return HttpResponse(str(e)+"")
 
 @csrf_exempt
 @api_view(['POST','GET'])
