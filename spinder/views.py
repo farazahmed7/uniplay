@@ -67,14 +67,13 @@ def mobile_facebook_login(request):
 
                 if tuple[1]==True:
                      Token.objects.create(user=user)
-                     UserProfile.objects.update(isNew=True)
                 return HttpResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
         except Exception as e:
             # If we get here we've failed
-           return HttpResponse(str(e)+"")
+           return HttpResponse(a.__str__() +str(e)+"")
 
 @csrf_exempt
 @api_view(['POST','GET'])
