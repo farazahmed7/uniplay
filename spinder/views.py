@@ -11,7 +11,6 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
-from rest_framework.response import Response
 from spinder.models import Game, UserProfile
 from spinder.serializers import UserSerializer
 
@@ -45,16 +44,13 @@ def get_token(request):
             # If we get here we've failed
            return HttpResponse("ASdsa "+str(e))
 
-
 @csrf_exempt
-@api_view(['POST','GET'])
 def mobile_facebook_login(request):
     if request.method=="POST":
         response=HttpResponse
         access_token =str(request.POST['access_token'])
         #email=str(request.POST['email'])
         try:
-
             app=SocialApp.objects.get(provider="facebook")
             token=SocialToken(app=app,token=access_token)
              # Check token against facebook
@@ -67,7 +63,6 @@ def mobile_facebook_login(request):
             try:
                 account=a.account
                 user=account.user
-                user.backend = 'django.contrib.auth.backends.ModelBackend'
                 tuple=UserProfile.objects.get_or_create(user=user,dp=account.get_avatar_url(),fullName=user.get_full_name())
 
                 if tuple[1]==True:
@@ -75,9 +70,8 @@ def mobile_facebook_login(request):
                      UserProfile.objects.update(user=user,isNew=False)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
-                serializer_context = {'request': request}
-                ser=UserSerializer(tuple[0],context=serializer_context)
-                return Response(ser.data)
+                ser=UserSerializer(tuple[0])
+                return HttpResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
