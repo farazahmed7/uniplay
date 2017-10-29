@@ -67,6 +67,7 @@ def mobile_facebook_login(request):
 
                 if tuple[1]==True:
                      Token.objects.create(user=user)
+                     UserProfile.objects.update(user=user,isNew=False)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
                 ser=UserSerializer(tuple[0])
