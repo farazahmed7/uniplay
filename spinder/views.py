@@ -12,6 +12,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from spinder.models import Game, UserProfile
+from spinder.serializers import UserSerializer
 
 
 @csrf_exempt
@@ -68,6 +69,7 @@ def mobile_facebook_login(request):
                      Token.objects.create(user=user)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
+                ser=UserSerializer(tuple[0])
                 return HttpResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
