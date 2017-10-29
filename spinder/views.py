@@ -14,8 +14,6 @@ from rest_framework.decorators import api_view
 from spinder.models import Game, UserProfile
 
 
-def chalja():
-    x=0
 
 @csrf_exempt
 def get_token(request):
