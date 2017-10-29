@@ -54,6 +54,7 @@ def mobile_facebook_login(request):
         access_token =str(request.POST['access_token'])
         #email=str(request.POST['email'])
         try:
+
             app=SocialApp.objects.get(provider="facebook")
             token=SocialToken(app=app,token=access_token)
              # Check token against facebook
@@ -66,6 +67,7 @@ def mobile_facebook_login(request):
             try:
                 account=a.account
                 user=account.user
+                user.backend = 'django.contrib.auth.backends.ModelBackend'
                 tuple=UserProfile.objects.get_or_create(user=user,dp=account.get_avatar_url(),fullName=user.get_full_name())
 
                 if tuple[1]==True:
