@@ -13,7 +13,7 @@ class UserProfile(models.Model):
     user = models.ForeignKey(User)
     fullName=models.CharField(max_length=300)
     dp=models.CharField(max_length=300)
-    isNew=models.NullBooleanField()
+    isNew=models.BooleanField(default=True)
     latitude=models.CharField(max_length=100)
     longitude=models.CharField(max_length=100)
 
