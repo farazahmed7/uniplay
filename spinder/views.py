@@ -87,8 +87,11 @@ def create_game(request):
         lon=str(request.POST['longitude'])
         lat=str(request.POST['latitude'])
         type=str(request.POST['type'])
-        location = Point((float(lon), float(lat)))
-        game=Game.objects.create(host=user,location=location,type=type)
-        return HttpResponse("done")
+        p1 = Point(37.2676483,-6.9273579)
+        p2 = Point(37.2653293,-6.9249401)
+        distance = p1.distance(p2)
+        distance_in_km = distance * 100
+        #game=Game.objects.create(host=user,location=location,type=type)
+        return HttpResponse("done"+distance_in_km)
 
 
