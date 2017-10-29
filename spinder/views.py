@@ -91,7 +91,9 @@ def create_game(request):
         p2 = Point(37.2653293,-6.9249401)
         distance = p1.distance(p2)
         distance_in_km = distance * 100
+        x=str(distance_in_km)
+
         #game=Game.objects.create(host=user,location=location,type=type)
-        return HttpResponse("done")
+        return HttpResponse("done"+x)
 
 
