@@ -14,7 +14,6 @@ from rest_framework.decorators import api_view
 from spinder.models import Game, UserProfile
 
 
-
 @csrf_exempt
 def get_token(request):
     if request.method=="POST":
@@ -67,13 +66,15 @@ def mobile_facebook_login(request):
 
                 if tuple[1]==True:
                      Token.objects.create(user=user)
+                else:
+                    UserProfile.objects.update(user=user,isNew=False)
                 return HttpResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
         except Exception as e:
             # If we get here we've failed
-           return HttpResponse(a.__str__() +str(e)+"")
+           return HttpResponse(str(e)+"")
 
 @csrf_exempt
 @api_view(['POST','GET'])
