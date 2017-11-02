@@ -4,7 +4,7 @@ from allauth.socialaccount.providers.facebook.views import fb_complete_login
 from django.contrib.auth.models import User
 from django.contrib.gis.geos import Point
 from django.core import serializers
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
@@ -71,7 +71,7 @@ def mobile_facebook_login(request):
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
                 ser=UserSerializer(tuple[0])
-                return HttpResponse(serializers.serialize("json",[tuple[0]]))
+                return JsonResponse(serializers.serialize("json",[tuple[0]]))
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
