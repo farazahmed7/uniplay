@@ -71,7 +71,7 @@ def mobile_facebook_login(request):
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
                 ser=UserSerializer(tuple[0])
-                return JsonResponse(serializers.serialize("json",[tuple[0]]))
+                return JsonResponse(serializers.serialize("json",[tuple[0]]),safe=True)
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
