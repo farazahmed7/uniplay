@@ -4,13 +4,11 @@ from allauth.socialaccount.providers.facebook.views import fb_complete_login
 from django.contrib.auth.models import User
 from django.contrib.gis.geos import Point
 from django.core import serializers
-from django.core.serializers import json
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
-from psycopg2._json import Json
 from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from spinder.models import Game, UserProfile
@@ -72,8 +70,8 @@ def mobile_facebook_login(request):
                      UserProfile.objects.update(user=user,isNew=False)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
-                J=json.loads(tuple[0])
-                return JsonResponse(j,safe=False)
+                x=UserProfile.objects.get(user=user)
+                return JsonResponse(serializers.serialize("json",x),safe=False)
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
             return HttpResponse("wuhoo")
