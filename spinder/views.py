@@ -70,7 +70,7 @@ def mobile_facebook_login(request):
                      UserProfile.objects.update(user=user,isNew=False)
                 else:
                     UserProfile.objects.update(user=user,isNew=False)
-                x=UserProfile.objects.filter(user=user).values()
+                x=UserProfile.objects.filter(user=user).values('isNew')
                 return JsonResponse({'results': list(x)})
             except User.DoesNotExist:
                 return HttpResponse("User Dosent Exist")
